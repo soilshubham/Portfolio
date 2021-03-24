@@ -2,7 +2,7 @@
 @import url('./partials/_variables.css');
 
 .title-text{
-    font: normal bolder 30px/45px var(--roboto);
+    font: normal 700 30px/45px var(--roboto);
 }
 
 .text-uppercase{
@@ -23,20 +23,19 @@
     background: var(--gradient-color);
     background-clip: padding-box;
     color: whitesmoke;
-    transition: background .6s ease;
-    box-shadow: var(--box-shadow);
+    transition: background .3s ease;
 }
 
 .button.primary-button:hover{
-    background: whitesmoke;
+    background: rgb(255, 255, 255);
     background-clip: padding-box;
     color: black;
 }
 
 .button.primary-button::after, .button.secondary-button::after{
     position: absolute;
-    top: -2px; left: -2px;
-    bottom: -2px;  right: -2px;
+    top: -2.2px; left: -2.2px;
+    bottom: -2.2px;  right: -2.2px;
     background: var(--gradient-color);
     content: ' ';
     z-index: -1;
@@ -46,11 +45,15 @@
 .button.secondary-button{
     background: white;
     background-clip: padding-box;
-    transition: background .6s ease;
+    transition: background .3s ease;
 }
 
 .button.secondary-button:hover{
     background: var(--gradient-color);
     color: whitesmoke;
-    box-shadow: var(--box-shadow);
+}
+
+p.para{
+    color: var(--text-color);
+    font: normal 500 14px/22px var(--roboto);
 }

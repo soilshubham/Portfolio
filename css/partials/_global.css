@@ -9,6 +9,15 @@
     text-transform: uppercase;
 }
 
+.font-roboto{
+    font-family: var(--roboto);
+}
+
+p.para{
+    color: var(--text-color);
+    font: normal 400 14px/22px var(--roboto);
+}
+
 .button{
     padding: .7rem 2.1rem;
     font: normal 500 16px/20px var(--roboto);
@@ -53,7 +62,3 @@
     color: whitesmoke;
 }
 
-p.para{
-    color: var(--text-color);
-    font: normal 500 14px/22px var(--roboto);
-}

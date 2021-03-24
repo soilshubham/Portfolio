@@ -18,7 +18,7 @@
     }
 
     .header_area .main-menu .nav-item .nav-link{
-        font: normal 500 13px/2px var(--roboto);
+        font: normal 400 13px/2px var(--roboto);
         text-transform: uppercase;
         margin: 0.8rem;
         padding: 0.8rem;
@@ -43,12 +43,6 @@
 /* End Navigation */
 
 /* Start Banner Area */
-
-    /* .center-this{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    } */
 
     .site-main .site-banner .site-title{
         padding-left: 8rem;
@@ -102,15 +96,71 @@
 
     .site-main .about-area .about-title h2 > span{
         display: block;
-        font-weight: 700;
+        font-weight: 900;
         letter-spacing: 6px;
-        line-height: 3rem;
+        line-height: 2.9rem;
+    }
+
+    .site-main .about-area .about-title .paragraph{
+        width:35vw;
+        padding: 1.5rem 0 1.5rem 0;
     }
 
     .site-main .about-area .about-image img{
-        width: 28rem;
+        width: 27rem;
         float: right;
-        padding: 1rem 3rem 0 0;
+        padding: 0rem 3rem 0 0;
     }
 
 /* End About Area */
+
+/* Start Services Area */
+
+    .site-main .services-area{
+        padding: 7rem 2rem;
+    }
+    
+    .site-main .services-area .services-title{
+        padding: 0rem 14rem;
+    }
+    .site-main .services-area .services-title h1{
+        font-size: 35px;
+    }
+    .site-main .services-area .services-title .services-subtitile{
+        padding-top: 1rem;
+    }
+
+    .site-main .services-area .services-list{
+        padding: 3rem 17.5vw;
+    }
+
+    .site-main .services-area .services{
+        background: #e6dfffb9;
+        padding: 2rem 0;
+        margin: 1rem 0rem;
+        transition: box-shadow 0.2s ease;
+        border-radius: 10px;
+    }
+
+    .site-main .services-area .services .card-title{
+        font-size: 0.85rem;
+    }
+
+    .site-main .services-area .services .card-body{
+        padding: 0.3rem 2rem 1.4rem;
+    }
+
+    .site-main .services-area .services .services-img img{
+        width: 3rem;
+    }
+
+    .site-main .services-area .services .card-text{
+        font-size: 0.8rem;
+        padding: 0.5rem 0;
+    }
+
+    .site-main .services-area .services:hover{
+        box-shadow: var(--box-shadow);
+    }
+
+/* End Services Area */

@@ -62,3 +62,12 @@ p.para{
     color: whitesmoke;
 }
 
+
+.navbar_fixed{
+    background: white;
+    box-shadow: 0px 0px 35px rgba(198, 182, 255, 0.37);
+    z-index: 999;
+    transition: background 0.7s ease;
+    
+
+}

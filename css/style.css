@@ -139,6 +139,8 @@
     }
     .site-main .services-area .services-title h1{
         font-size: 35px;
+        font-weight: 900;
+        letter-spacing: 2px;
     }
     .site-main .services-area .services-title .services-subtitile{
         padding-top: 1rem;

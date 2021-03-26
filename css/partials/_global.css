@@ -46,7 +46,7 @@ p.para{
     top: -2.2px; left: -2.2px;
     bottom: -2.2px;  right: -2.2px;
     background: var(--gradient-color);
-    content: ' ';
+    content: '';
     z-index: -1;
     border-radius: 4px;
 }

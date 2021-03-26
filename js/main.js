@@ -8,7 +8,7 @@ $(document).ready(function () {
         
             $(window).scroll(function () {
                 let scroll = $(window).scrollTop();
-                if (scroll) {
+                if (scroll>0) {
                     $('.header_area .main-menu').addClass('navbar_fixed');
                 } else {
                     $('.header_area .main-menu').removeClass('navbar_fixed');

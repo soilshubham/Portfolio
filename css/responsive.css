@@ -1,0 +1,104 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    
+    .site-main .site-banner {
+        margin-top: 30rem;
+    }
+    
+    .header_area .main-menu .navbar{
+        padding: 1rem 2rem;
+    }
+    
+    .site-main .site-banner .site-title{
+        padding-left: 3rem;
+    }
+
+    .site-main .site-banner .site-title h1{
+        font-size: 2.4rem;
+        width: 20rem;
+
+    }
+
+    .site-main .site-banner .site-title h4{
+        font-size: 1.1rem;
+        width: 20rem;
+    }
+
+    .site-main .site-banner .site-title h3{
+        font-size: 1.5rem;
+    }
+
+    .site-main .site-banner .site-title h3::after{
+        width: 30vw;
+        margin-left: 6%;
+    }
+
+    .site-main .site-banner .banner-image > img{
+        margin-top: -60rem;
+        width: 30rem;
+        margin-left: -0.4rem;
+    }
+
+    .button{
+        padding: .7rem 1.4rem;
+        width: 50%;
+        margin-top: -1rem;
+    }
+
+    /* ======== about area ========== */
+
+    .site-main .about-area .about-image{
+        display: flex;
+        justify-content: center;
+    }
+
+    .site-main .about-area .about-image img{
+        padding: 0rem 4rem;
+        float: none;
+    }
+
+    .site-main .about-area .about-title h2{
+        margin-top: 3rem;
+
+    }
+
+    .site-main .about-area .about-title h2 > span{
+        line-height: 2.9rem;
+        letter-spacing: 5px;
+        font-size: 1.7rem;
+    }
+
+    .site-main .about-area{
+        padding: 18rem 0rem 8rem 0rem;
+        margin: 0 2rem;
+        width: 130vw;
+    }
+
+    .site-main .about-area .about-title .paragraph{
+        width:110vw;
+        padding: 1.7rem 0 2rem;
+    }
+
+    .site-main .about-area .about-title .paragraph .para{
+        font-size: 1rem;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+}

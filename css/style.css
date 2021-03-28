@@ -5,7 +5,7 @@ html, body{
     height: 100%;
     color: var(--text-color2);
     max-width: 100%;
-
+    scroll-behavior: smooth;
 }
 
 /* CSS Variables */
@@ -71,7 +71,7 @@ html, body{
 /* Start Banner Area */
 
     .site-main .site-banner {
-        margin-top: 6rem;
+        padding-top: 6rem;
     }
     .site-main .site-banner .site-title{
         padding-left: 0rem;
@@ -148,7 +148,7 @@ html, body{
 /* Start Services Area */
 
     .site-main .services-area{
-        padding: 7rem 2rem;
+        padding: 12rem 7rem 2rem 7rem;
     }
     
     .site-main .services-area .services-title{

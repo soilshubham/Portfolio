@@ -12,7 +12,7 @@
 
 p.para{
     color: var(--text-color);
-    font: normal 400 14px/22px var(--roboto);
+    font: normal 300 14px/22px var(--roboto);
 }
 
 .button{

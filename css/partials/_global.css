@@ -1,5 +1,3 @@
-@import url('./_variables.css');
-
 .title-text{
     font: normal 700 30px/45px var(--roboto);
 }

@@ -1,9 +1,9 @@
 
 /* CSS Variables */
-@import './partials/_variables.css';
+@import '../css/partials/_variables.css';
 
 /* import global styling */
-@import './partials/_global.css';
+@import '../css/partials/_variables.css';
 
 /* Start Navigation */
 

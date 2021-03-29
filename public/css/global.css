@@ -1,0 +1,60 @@
+.title-text{
+    font: normal 700 30px/45px var(--roboto);
+}
+
+.text-uppercase{
+    text-transform: uppercase;
+}
+
+.font-roboto{
+    font-family: var(--roboto);
+}
+
+p.para{
+    color: var(--text-color);
+    font: normal 300 14px/22px var(--roboto);
+}
+
+.button{
+    padding: .7rem 2.1rem;
+    font: normal 500 12px/20px var(--roboto);
+    position: relative;
+    border-radius: 4px;
+    margin-right: 4%;
+    transition: background .2s ease;
+}
+
+.button.primary-button{
+    background: var(--primary-color2);
+    color: whitesmoke;
+    border-color: transparent;
+    border-width: 2px;
+}
+
+.button.primary-button:hover{
+    background: transparent;
+    color: black;
+    border-color: var(--primary-color2);
+}
+
+.button.secondary-button{
+    background: transparent;
+    border-color: var(--primary-color2);
+    border-width: 2px;
+}
+
+.button.secondary-button:hover{
+    background: var(--primary-color2);
+    color: whitesmoke;
+    border-color: transparent;
+}
+
+
+.navbar_fixed{
+    background: white;
+    box-shadow: 0px 0px 35px rgba(198, 182, 255, 0.37);
+    z-index: 999;
+    transition: background 0.7s ease;
+    
+
+}
